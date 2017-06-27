@@ -93,12 +93,46 @@ h2 {
 
 }
 
-.infos_refonte {
+.infos_refonte,
+.infos_refonte a {
 	text-align:center;
+	background-color: #121145;
+	color:#D7D5D9;
 }
 
 
 .list_inline li {
 	display:inline;
 	list-style-type:none ;
+}
+
+.button {
+	background-color: #121145;
+	color:#D7D5D9;
+	text-align:center;
+	max-width: 10em;
+	border-radius: 10px;
+}
+
+.button a {
+	color:#D7D5D9;
+}
+
+.links_list h3 {
+	font-size: 0.6em;
+	text-transform: uppercase;
+
+}
+
+.links_list {
+	margin-left:5em;
+}
+
+footer {
+	font-size:0.5em;
+	text-align: center;
+}
+
+.tiny_article {
+	margin-left:1em;
 }
